@@ -1,0 +1,51 @@
+# Local databases and SQLite sidecar files
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Uploaded safety data sheets and other PDF files
+*.pdf
+*.PDF
+uploads/
+upload/
+uploaded_files/
+
+# Secrets and local environment files
+.env
+.env.*
+.streamlit/secrets.toml
+secrets.toml
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated build and distribution files
+build/
+dist/
+site/
+*.egg-info/
+
+# Coverage and test output
+.coverage
+.coverage.*
+htmlcov/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
